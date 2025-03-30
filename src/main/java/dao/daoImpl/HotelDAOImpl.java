@@ -4,8 +4,8 @@ import entity.Hotel;
 
 public interface HotelDAOImpl {
 
-    void addHotel(Hotel hotel);
-    void allList();
+    void save(Hotel hotel);
+    void findAll();
     void findByid(int id);
     void updateHotel(Hotel hotel);
     void deleteHotel(int id);
