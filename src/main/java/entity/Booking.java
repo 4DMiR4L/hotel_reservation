@@ -91,12 +91,12 @@ public class Booking {
     @Override
     public String toString() {
         return "Booking{" +
-               "id=" + id +
-               ", customer_name='" + customer_name + '\'' +
-               ", customer_email='" + customer_email + '\'' +
-               ", start_date=" + start_date +
-               ", end_date=" + end_date +
-               ", status='" + status + '\'' +
-               '}';
+                "id=" + id +
+                ", customer_name='" + customer_name + '\'' +
+                ", customer_email='" + customer_email + '\'' +
+                ", start_date=" + start_date +
+                ", end_date=" + end_date +
+                ", status='" + status + '\'' +
+                '}';
     }
 }

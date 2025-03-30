@@ -11,7 +11,7 @@ services:
       POSTGRES_DB: postgres
 
     ports:
-      - "5434:5434"
+      - "5434:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
 
@@ -21,7 +21,7 @@ services:
     depends_on:
       - database
     environment:
-      DB_URL: jdbc:postgresql://database:5434/postgres
+      DB_URL: jdbc:postgresql://database:5432/postgres
       DB_USER: postgres
       DB_PASSWORD: postgres
     ports:
