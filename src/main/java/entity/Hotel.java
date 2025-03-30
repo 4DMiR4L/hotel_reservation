@@ -5,7 +5,7 @@ import java.util.Date;
 public class Hotel {
     private Integer id;
     private String name;
-    private  String location;
+    private String location;
     private Date data;
 
     public Hotel(Integer id, String name, String location, Date data) {
@@ -69,10 +69,10 @@ public class Hotel {
     @Override
     public String toString() {
         return "Hotel{" +
-               "id=" + id +
-               ", name='" + name + '\'' +
-               ", location='" + location + '\'' +
-               ", data=" + data +
-               '}';
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", location='" + location + '\'' +
+                ", data=" + data +
+                '}';
     }
 }

@@ -80,11 +80,11 @@ public class Room {
     @Override
     public String toString() {
         return "Room{" +
-               "id=" + id +
-               ", room_number=" + room_number +
-               ", price=" + price +
-               ", status='" + status + '\'' +
-               ", date=" + date +
-               '}';
+                "id=" + id +
+                ", room_number=" + room_number +
+                ", price=" + price +
+                ", status='" + status + '\'' +
+                ", date=" + date +
+                '}';
     }
 }
