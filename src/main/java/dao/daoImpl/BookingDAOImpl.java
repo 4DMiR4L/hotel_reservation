@@ -2,9 +2,11 @@ package dao.daoImpl;
 
 import entity.Booking;
 
+import java.util.List;
+
 public interface BookingDAOImpl {
     void createReservation(Booking booking);
-    void listReservation(Booking booking);
+    List<Booking> getAllBookings();
     void findById(int id);
-    void cancelReservation(Booking booking);
+    void cancelReservation(int id);
 }
