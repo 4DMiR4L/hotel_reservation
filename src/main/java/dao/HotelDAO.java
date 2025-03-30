@@ -3,15 +3,17 @@ package dao;
 import dao.daoImpl.HotelDAOImpl;
 import entity.Hotel;
 
+import java.util.List;
+
 public class HotelDAO implements HotelDAOImpl {
 
     @Override
-    public void addHotel(Hotel hotel) {
+    public void save(Hotel hotel) {
 
     }
 
     @Override
-    public void allList() {
+    public void findAll() {
 
     }
 
