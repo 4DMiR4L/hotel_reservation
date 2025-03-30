@@ -1,5 +1,6 @@
 package entity;
 
+import java.sql.Timestamp;
 import java.util.Date;
 
 public class Booking {
@@ -19,8 +20,9 @@ public class Booking {
         this.status = status;
     }
 
-    public Booking() {
+    public Booking(int id, int roomId, String customerName, String customerEmail, java.sql.Date startDate, java.sql.Date endDate, String status, Timestamp createdAt) {
     }
+
 
     public Integer getId() {
         return id;
